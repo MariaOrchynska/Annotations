@@ -8,7 +8,8 @@ import java.lang.annotation.Target;
 
 
 public @interface SerializeData {
-    Data dates();
+    Data [] dates();
+
 //    public String day() default "Monday";
 //    public int number() default 5;
 //    public int year() default 2021;
